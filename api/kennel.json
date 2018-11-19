@@ -77,5 +77,41 @@
       "phoneNumber": "999-999-9999"
     }
   ],
-  "petOwners": []
+  "petOwners": [
+    {
+      "id": 1,
+      "animal_id": 1,
+      "owner_id": 2
+    },
+    {
+      "id": 2,
+      "animal_id": 2,
+      "owner_id": 4
+    },
+    {
+      "id": 3,
+      "animal_id": 2,
+      "owner_id": 3
+    },
+    {
+      "id": 4,
+      "animal_id": 3,
+      "owner_id": 1
+    },
+    {
+      "id": 5,
+      "animal_id": 4,
+      "owner_id": 2
+    },
+    {
+      "id": 6,
+      "animal_id": 5,
+      "owner_id": 1
+    },
+    {
+      "id": 7,
+      "animal_id": 6,
+      "owner_id": 4
+    }
+  ]
 }
