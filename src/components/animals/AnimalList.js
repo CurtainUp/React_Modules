@@ -25,7 +25,7 @@ export default class AnimalList extends Component {
                         <div key={animal.id} className="card">
                             <div className="card-body">
                                 <h5 className="card-title">
-                                    <img src={dog} className="icon--dog" />
+                                    <img src={dog} className="icon--dog" alt="Yellow cartoon dog on pink background." />
                                     <p>{animal.name}</p>
                                     <p className="owner-names">{this.getOwners(animal)}</p>
                                     <a href="#"
