@@ -1,0 +1,117 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Younker"
+    },
+    {
+      "id": 2,
+      "name": "Jordan Nelson"
+    },
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc"
+    },
+    {
+      "id": 4,
+      "name": "Blaise Roberts"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "10101 Binary Court"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles"
+    },
+    {
+      "id": 2,
+      "name": "Jack"
+    },
+    {
+      "id": 3,
+      "name": "Angus"
+    },
+    {
+      "id": 4,
+      "name": "Henley"
+    },
+    {
+      "id": 5,
+      "name": "Derkins"
+    },
+    {
+      "id": 6,
+      "name": "Checkers"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Jared Fisher",
+      "phoneNumber": "555-985-4545"
+    },
+    {
+      "id": 2,
+      "name": "Gloria Estefan",
+      "phoneNumber": "555-411-9787"
+    },
+    {
+      "id": 3,
+      "name": "Childish Gambino",
+      "phoneNumber": "659-555-4222"
+    },
+    {
+      "id": 4,
+      "name": "Meryl Streep",
+      "phoneNumber": "999-999-9999"
+    }
+  ],
+  "petOwners": [
+    {
+      "id": 1,
+      "animal_id": 1,
+      "owner_id": 2
+    },
+    {
+      "id": 2,
+      "animal_id": 2,
+      "owner_id": 4
+    },
+    {
+      "id": 3,
+      "animal_id": 2,
+      "owner_id": 3
+    },
+    {
+      "id": 4,
+      "animal_id": 3,
+      "owner_id": 1
+    },
+    {
+      "id": 5,
+      "animal_id": 4,
+      "owner_id": 2
+    },
+    {
+      "id": 6,
+      "animal_id": 5,
+      "owner_id": 1
+    },
+    {
+      "id": 7,
+      "animal_id": 6,
+      "owner_id": 4
+    }
+  ]
+}
