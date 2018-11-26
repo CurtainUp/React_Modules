@@ -48,13 +48,8 @@ export default class ApplicationViews extends Component {
       .then(() => this.setState(newState))
   }
 
-  deleteAnimal = id => {
-    return fetch(`http://localhost:5002/animals/${id}`, {
-      method: "DELETE"
-    })
-      .then(e => e.json())
-      .then(() => fetch(`http://localhost:5002/animals`))
-      .then(e => e.json())
+  deleteAnimal = (id) => {
+    return AnimalManager.removeAndList(id)
       .then(animals => this.setState({
         animals: animals
       })
